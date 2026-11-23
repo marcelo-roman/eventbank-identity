@@ -11,6 +11,7 @@ The Keycloak of [EventBank](https://github.com/marcelo-roman/eventbank-platform)
 | Audience | Both clients add `eventbank-api` to access tokens; every service rejects tokens without it |
 | Roles | `customer` is given to everyone who signs up; `operator` reviews applications and watches the platform |
 | Sign-up | Open, with the e-mail as username, e-mail verification through Mailpit, and the password chosen after the e-mail is verified |
+| Login theme | `eventbank`, built on `keycloak.v2`: the app's palette and type, light or dark following the same preference the app stores |
 | Languages | English and Brazilian Portuguese; the shell asks for the visitor's language with `ui_locales` |
 | Demo operator | `operator@eventbank.local` / `operator123` |
 
